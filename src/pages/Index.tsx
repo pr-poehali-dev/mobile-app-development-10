@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 const contacts = [
@@ -34,6 +35,7 @@ export default function Index() {
   const [inputVal, setInputVal] = useState("");
   const [msgs, setMsgs] = useState(messages);
 
+  const navigate = useNavigate();
   const activeContact = contacts.find((c) => c.id === activeChat);
 
   const sendMessage = () => {
@@ -70,6 +72,14 @@ export default function Index() {
             </div>
             <span className="vibe-logo-text">VIBE</span>
             <div className="vibe-logo-badge">BETA</div>
+            <button
+              onClick={() => navigate("/login")}
+              className="vibe-icon-btn"
+              title="Выйти"
+              style={{ marginLeft: "auto" }}
+            >
+              <Icon name="LogOut" size={16} />
+            </button>
           </div>
 
           {/* Search */}
