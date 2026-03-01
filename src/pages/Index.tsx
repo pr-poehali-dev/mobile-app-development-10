@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 
 const contacts = [
   { id: 1, name: "Алиса Морозова", msg: "Ты видел новый дроп? 🔥", time: "сейчас", avatar: "А", online: true, unread: 3, color: "from-pink-500 to-rose-500" },
-  { id: 2, name: "Команда VIBE", msg: "Встреча в 18:00, не забудь!", time: "2 мин", avatar: "К", online: true, unread: 7, color: "from-violet-500 to-purple-600" },
+  { id: 2, name: "Команда WorChat", msg: "Встреча в 18:00, не забудь!", time: "2 мин", avatar: "К", online: true, unread: 7, color: "from-violet-500 to-purple-600" },
   { id: 3, name: "Дима Кравцов", msg: "Голосовое сообщение 0:42", time: "15 мин", avatar: "Д", online: false, unread: 0, color: "from-blue-500 to-cyan-500" },
   { id: 4, name: "Настя ☀️", msg: "Спасибо за стикеры!", time: "1 час", avatar: "Н", online: true, unread: 1, color: "from-amber-400 to-orange-500" },
   { id: 5, name: "Крипто-канал", msg: "BTC +12% за последние...", time: "2 час", avatar: "₿", online: false, unread: 24, color: "from-emerald-400 to-teal-500" },
@@ -21,7 +21,7 @@ const messages = [
 ];
 
 const channels = [
-  { id: 1, name: "VIBE Технологии", subs: "1.2M", icon: "Cpu", color: "from-violet-600 to-purple-700" },
+  { id: 1, name: "WorChat Технологии", subs: "1.2M", icon: "Cpu", color: "from-violet-600 to-purple-700" },
   { id: 2, name: "Крипто & NFT", subs: "890K", icon: "TrendingUp", color: "from-emerald-500 to-teal-600" },
   { id: 3, name: "Дизайн 2024", subs: "445K", icon: "Palette", color: "from-pink-500 to-rose-600" },
   { id: 4, name: "Музыка & Дропы", subs: "2.1M", icon: "Music", color: "from-amber-500 to-orange-600" },
@@ -68,9 +68,9 @@ export default function Index() {
           {/* Logo */}
           <div className="vibe-logo">
             <div className="vibe-logo-icon">
-              <span>V</span>
+              <span>W</span>
             </div>
-            <span className="vibe-logo-text">VIBE</span>
+            <span className="vibe-logo-text">WorChat</span>
             <div className="vibe-logo-badge">BETA</div>
             <button
               onClick={() => navigate("/login")}

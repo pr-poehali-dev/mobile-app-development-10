@@ -66,9 +66,9 @@ export default function Auth() {
         {/* Logo */}
         <div className="auth-logo">
           <div className="auth-logo-ring" />
-          <div className="auth-logo-icon">V</div>
+          <div className="auth-logo-icon">W</div>
         </div>
-        <h1 className="auth-title">VIBE</h1>
+        <h1 className="auth-title">WorChat</h1>
         <p className="auth-subtitle">Мессенджер нового поколения</p>
 
         {/* Card */}
@@ -223,7 +223,7 @@ export default function Auth() {
           )}
         </div>
 
-        <p className="auth-footer">VIBE © 2024 · Все сообщения зашифрованы 🔒</p>
+        <p className="auth-footer">WorChat © 2024 · Все сообщения зашифрованы 🔒</p>
       </div>
 
       <style>{`
